@@ -15,7 +15,7 @@ pipeline {
         stage("Test request") {
             steps {
                 sh """
-                    python requestgoogle.com
+                    python requestgoogle.py
                 """
             }
         }
